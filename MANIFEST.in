@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include sports_management *.css
+recursive-include sports_management *.csv
+recursive-include sports_management *.html
+recursive-include sports_management *.ico
+recursive-include sports_management *.js
+recursive-include sports_management *.json
+recursive-include sports_management *.md
+recursive-include sports_management *.png
+recursive-include sports_management *.py
+recursive-include sports_management *.svg
+recursive-include sports_management *.txt
+recursive-exclude sports_management *.pyc
