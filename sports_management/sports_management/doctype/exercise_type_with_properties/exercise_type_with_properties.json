@@ -1,13 +1,12 @@
 {
- "allow_import": 1,
- "allow_rename": 1,
  "autoname": "field:name1",
- "creation": "2020-06-06 23:09:44.289721",
+ "creation": "2020-05-31 17:42:31.560042",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "name1"
+  "name1",
+  "exercise_property_table"
  ],
  "fields": [
   {
@@ -17,12 +16,18 @@
    "label": "Name",
    "reqd": 1,
    "unique": 1
+  },
+  {
+   "fieldname": "exercise_property_table",
+   "fieldtype": "Table",
+   "label": "Exercise Property Table",
+   "options": "Exercise Property Table"
   }
  ],
- "modified": "2020-06-06 23:16:15.664366",
+ "modified": "2020-06-06 19:44:23.624465",
  "modified_by": "Administrator",
  "module": "Sports Management",
- "name": "Exercise Type",
+ "name": "Exercise_Type_with_properties",
  "owner": "Administrator",
  "permissions": [
   {

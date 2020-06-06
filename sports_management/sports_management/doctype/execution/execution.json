@@ -6,15 +6,16 @@
  "engine": "InnoDB",
  "field_order": [
   "exercise",
-  "exercise_type",
   "column_break1",
   "datetime",
   "section_break1",
   "reps",
-  "tempo",
   "weight",
+  "tempo",
+  "column_break2",
   "duration",
-  "distance"
+  "distance",
+  "exercise_type"
  ],
  "fields": [
   {
@@ -26,8 +27,10 @@
   {
    "fetch_from": "exercise.exercise_type",
    "fieldname": "exercise_type",
-   "fieldtype": "Read Only",
-   "label": "Exercise Type"
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Exercise Type",
+   "read_only": 1
   },
   {
    "fieldname": "column_break1",
@@ -67,9 +70,13 @@
    "fieldname": "distance",
    "fieldtype": "Int",
    "label": "Distance (Meter)"
+  },
+  {
+   "fieldname": "column_break2",
+   "fieldtype": "Column Break"
   }
  ],
- "modified": "2020-06-06 22:43:33.287658",
+ "modified": "2020-06-06 23:47:50.548916",
  "modified_by": "Administrator",
  "module": "Sports Management",
  "name": "Execution",

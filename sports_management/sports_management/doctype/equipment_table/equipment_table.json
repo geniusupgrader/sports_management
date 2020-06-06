@@ -1,5 +1,4 @@
 {
- "autoname": "field:name1",
  "creation": "2020-06-06 19:50:33.015947",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -13,13 +12,11 @@
    "fieldtype": "Link",
    "in_list_view": 1,
    "label": "Name",
-   "options": "Equipment",
-   "reqd": 1,
-   "unique": 1
+   "options": "Equipment"
   }
  ],
  "istable": 1,
- "modified": "2020-06-06 19:50:33.015947",
+ "modified": "2020-06-06 23:43:58.608588",
  "modified_by": "Administrator",
  "module": "Sports Management",
  "name": "Equipment Table",
