@@ -1,0 +1,85 @@
+{
+ "_comments": "[{\"comment\": \"<div>Wenn Exercise ausgew\\u00e4hlt, die exercise type sollte gefetched werden und dann die Felder f\\u00fcr ...\", \"by\": \"Administrator\", \"name\": \"1e60f22d21\"}]",
+ "autoname": "format:{exercise} - {datetime}",
+ "creation": "2020-06-01 09:34:31.509458",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "exercise",
+  "exercise_type",
+  "column_break1",
+  "datetime",
+  "section_break1",
+  "execution_table"
+ ],
+ "fields": [
+  {
+   "fieldname": "exercise",
+   "fieldtype": "Link",
+   "label": "Exercise",
+   "options": "Exercise"
+  },
+  {
+   "default": "Now",
+   "fieldname": "datetime",
+   "fieldtype": "Datetime",
+   "label": "Datetime"
+  },
+  {
+   "fetch_from": "exercise.exercise_type",
+   "fieldname": "exercise_type",
+   "fieldtype": "Read Only",
+   "label": "Exercise Type"
+  },
+  {
+   "fieldname": "execution_table",
+   "fieldtype": "Table",
+   "label": "Execution Table",
+   "options": "Execution Table"
+  },
+  {
+   "fieldname": "column_break1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break1",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "modified": "2020-06-06 22:25:44.866602",
+ "modified_by": "Administrator",
+ "module": "Sports Management",
+ "name": "Execution_with_exercise_type",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "if_owner": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Athlete",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

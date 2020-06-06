@@ -1,0 +1,36 @@
+{
+ "creation": "2020-05-31 18:07:26.834975",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "day",
+  "workout"
+ ],
+ "fields": [
+  {
+   "fieldname": "day",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Day",
+   "options": "Monday\nTuesday\nWednesday\nThursday\nFriday\nSaturday\nSunday"
+  },
+  {
+   "fieldname": "workout",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Workout",
+   "options": "Workout"
+  }
+ ],
+ "istable": 1,
+ "modified": "2020-05-31 18:16:15.330642",
+ "modified_by": "Administrator",
+ "module": "Sports Management",
+ "name": "Workout Plan Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
