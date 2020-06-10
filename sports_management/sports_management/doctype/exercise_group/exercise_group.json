@@ -4,6 +4,7 @@
  "autoname": "field:name1",
  "creation": "2020-06-07 20:11:23.745972",
  "doctype": "DocType",
+ "document_type": "Document",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
@@ -32,8 +33,8 @@
   }
  ],
  "image_field": "attach_image",
- "modified": "2020-06-08 23:55:27.771985",
- "modified_by": "email@robinrosenstock.com",
+ "modified": "2020-06-10 16:02:34.314290",
+ "modified_by": "Administrator",
  "module": "Sports Management",
  "name": "Exercise Group",
  "owner": "Administrator",
