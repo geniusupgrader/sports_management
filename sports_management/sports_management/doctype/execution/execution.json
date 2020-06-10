@@ -6,7 +6,7 @@
  "engine": "InnoDB",
  "field_order": [
   "exercise_type",
-  "exercise_group",
+  "exercise_series",
   "exercise",
   "datetime",
   "column_break1",
@@ -95,13 +95,13 @@
    "options": "attach_image"
   },
   {
-   "fieldname": "exercise_group",
+   "fieldname": "exercise_series",
    "fieldtype": "Link",
-   "label": "Exercise Group",
-   "options": "Exercise Group"
+   "label": "Exercise Series",
+   "options": "Exercise Series"
   }
  ],
- "modified": "2020-06-07 22:45:07.624458",
+ "modified": "2020-06-10 17:06:02.174303",
  "modified_by": "Administrator",
  "module": "Sports Management",
  "name": "Execution",
