@@ -1,11 +1,15 @@
 {
+ "allow_import": 1,
+ "allow_rename": 1,
  "autoname": "field:muscle",
  "creation": "2020-06-06 19:21:06.047520",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "muscle"
+  "muscle",
+  "attach_image",
+  "image_license"
  ],
  "fields": [
   {
@@ -13,10 +17,21 @@
    "fieldtype": "Data",
    "label": "Muscle",
    "unique": 1
+  },
+  {
+   "fieldname": "attach_image",
+   "fieldtype": "Attach Image",
+   "hidden": 1
+  },
+  {
+   "fieldname": "image_license",
+   "fieldtype": "Data",
+   "label": "Image License"
   }
  ],
- "modified": "2020-06-06 23:42:27.472190",
- "modified_by": "Administrator",
+ "image_field": "attach_image",
+ "modified": "2020-06-09 11:13:19.524340",
+ "modified_by": "email@robinrosenstock.com",
  "module": "Sports Management",
  "name": "Muscle",
  "owner": "Administrator",

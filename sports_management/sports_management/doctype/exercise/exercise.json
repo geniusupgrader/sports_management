@@ -4,13 +4,18 @@
  "autoname": "field:name1",
  "creation": "2020-05-31 17:34:59.803038",
  "doctype": "DocType",
+ "document_type": "Document",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
   "name1",
+  "alternative_naming",
   "exercise_type",
+  "exercise_group",
   "muscles",
   "equipment",
+  "difficulty_level",
+  "status",
   "description",
   "column_break1",
   "image",
@@ -57,6 +62,7 @@
    "fieldname": "exercise_type",
    "fieldtype": "Link",
    "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Exercise Type",
    "options": "Exercise Type"
   },
@@ -73,10 +79,39 @@
   {
    "fieldname": "section_break1",
    "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "exercise_group",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Exercise Group",
+   "options": "Exercise Group"
+  },
+  {
+   "fieldname": "difficulty_level",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Difficulty Level"
+  },
+  {
+   "fieldname": "alternative_naming",
+   "fieldtype": "Data",
+   "in_standard_filter": 1,
+   "label": "Alternative Naming"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_standard_filter": 1,
+   "label": "Status",
+   "options": "In Training"
   }
  ],
- "modified": "2020-06-06 23:37:49.657620",
- "modified_by": "Administrator",
+ "image_field": "attach_image",
+ "modified": "2020-06-10 13:59:34.567664",
+ "modified_by": "email@robinrosenstock.com",
  "module": "Sports Management",
  "name": "Exercise",
  "owner": "Administrator",
@@ -116,7 +151,6 @@
    "share": 1
   }
  ],
- "sort_field": "modified",
  "sort_order": "DESC",
  "track_changes": 1
 }

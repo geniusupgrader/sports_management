@@ -1,4 +1,6 @@
 {
+ "allow_import": 1,
+ "allow_rename": 1,
  "autoname": "field:equipment",
  "creation": "2020-06-06 19:50:12.554193",
  "doctype": "DocType",
@@ -6,7 +8,6 @@
  "engine": "InnoDB",
  "field_order": [
   "equipment",
-  "image",
   "attach_image",
   "image_license"
  ],
@@ -18,14 +19,9 @@
    "unique": 1
   },
   {
-   "fieldname": "image",
-   "fieldtype": "Image",
-   "label": "Image",
-   "options": "attach_image"
-  },
-  {
    "fieldname": "attach_image",
    "fieldtype": "Attach Image",
+   "hidden": 1,
    "label": "Attach Image"
   },
   {
@@ -34,8 +30,9 @@
    "label": "Image License"
   }
  ],
- "modified": "2020-06-06 20:18:35.355151",
- "modified_by": "Administrator",
+ "image_field": "attach_image",
+ "modified": "2020-06-08 23:59:22.082448",
+ "modified_by": "email@robinrosenstock.com",
  "module": "Sports Management",
  "name": "Equipment",
  "owner": "Administrator",

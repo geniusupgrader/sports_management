@@ -5,17 +5,21 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "exercise_type",
+  "exercise_group",
   "exercise",
-  "column_break1",
   "datetime",
+  "column_break1",
+  "image",
   "section_break1",
   "reps",
   "weight",
   "tempo",
   "column_break2",
-  "duration",
+  "short_duration_seconds",
+  "long_duration_minutes",
   "distance",
-  "exercise_type"
+  "attach_image"
  ],
  "fields": [
   {
@@ -25,12 +29,10 @@
    "options": "Exercise"
   },
   {
-   "fetch_from": "exercise.exercise_type",
    "fieldname": "exercise_type",
-   "fieldtype": "Data",
-   "hidden": 1,
+   "fieldtype": "Link",
    "label": "Exercise Type",
-   "read_only": 1
+   "options": "Exercise Type"
   },
   {
    "fieldname": "column_break1",
@@ -58,25 +60,48 @@
   },
   {
    "fieldname": "weight",
-   "fieldtype": "Int",
+   "fieldtype": "Float",
    "label": "Weight"
   },
   {
-   "fieldname": "duration",
-   "fieldtype": "Int",
-   "label": "Duration (Minutes)"
-  },
-  {
    "fieldname": "distance",
-   "fieldtype": "Int",
+   "fieldtype": "Float",
    "label": "Distance (Meter)"
   },
   {
    "fieldname": "column_break2",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "short_duration_seconds",
+   "fieldtype": "Float",
+   "label": "Short Duration (Seconds)"
+  },
+  {
+   "fieldname": "long_duration_minutes",
+   "fieldtype": "Float",
+   "label": "Long Duration (Minutes)"
+  },
+  {
+   "fieldname": "attach_image",
+   "fieldtype": "Attach Image",
+   "hidden": 1
+  },
+  {
+   "fetch_from": "exercise.attach_image",
+   "fieldname": "image",
+   "fieldtype": "Image",
+   "label": "Exercise Image",
+   "options": "attach_image"
+  },
+  {
+   "fieldname": "exercise_group",
+   "fieldtype": "Link",
+   "label": "Exercise Group",
+   "options": "Exercise Group"
   }
  ],
- "modified": "2020-06-06 23:47:50.548916",
+ "modified": "2020-06-07 22:45:07.624458",
  "modified_by": "Administrator",
  "module": "Sports Management",
  "name": "Execution",

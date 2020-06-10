@@ -9,32 +9,38 @@ def get_data():
         "items": [
             {
               "type": "doctype",
-              "name": "Exercise",
-              "label": _("Exercise"),
+              "name": "Execution",
+              "label": _("Execution"),
               "description": _("Description of Exercise"),
             },
             {
               "type": "doctype",
-              "name": "Execution",
-              "label": _("Execution"),
+              "name": "Exercise",
+              "label": _("Exercise"),
               "description": _("Description of Execution"),
-            },
-            {
-              "type": "doctype",
-              "name": "Equipment",
-              "label": _("Equipment"),
-              "description": _("Description of Training"),
             },
             {
               "type": "doctype",
               "name": "Exercise Type",
               "label": _("Exercise Type"),
+              "description": _("Description of Training"),
+            },
+            {
+              "type": "doctype",
+              "name": "Exercise Group",
+              "label": _("Exercise Group"),
               "description": _("Description of Exercise Type"),
             },
             {
               "type": "doctype",
               "name": "Muscle",
               "label": _("Muscle"),
+              "description": _("Description of Exercise Type"),
+            },
+            {
+              "type": "doctype",
+              "name": "Equipment",
+              "label": _("Equipment"),
               "description": _("Description of Exercise Type"),
             },
             {
