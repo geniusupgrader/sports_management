@@ -5,9 +5,9 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "exercise",
   "exercise_type",
   "exercise_series",
-  "exercise",
   "datetime",
   "column_break1",
   "image",
@@ -29,6 +29,7 @@
    "options": "Exercise"
   },
   {
+   "fetch_from": "exercise.exercise_type",
    "fieldname": "exercise_type",
    "fieldtype": "Link",
    "label": "Exercise Type",
@@ -95,13 +96,15 @@
    "options": "attach_image"
   },
   {
+   "fetch_from": "exercise.exercise_series",
    "fieldname": "exercise_series",
    "fieldtype": "Link",
    "label": "Exercise Series",
    "options": "Exercise Series"
   }
  ],
- "modified": "2020-06-10 17:06:02.174303",
+ "image_field": "attach_image",
+ "modified": "2020-06-10 19:41:36.560547",
  "modified_by": "Administrator",
  "module": "Sports Management",
  "name": "Execution",

@@ -18,6 +18,8 @@
   "status",
   "description",
   "column_break1",
+  "fold1",
+  "section2",
   "image",
   "attach_image",
   "attach_video",
@@ -94,11 +96,12 @@
    "label": "Alternative Naming"
   },
   {
+   "default": "In Catalog",
    "fieldname": "status",
    "fieldtype": "Select",
    "in_standard_filter": 1,
    "label": "Status",
-   "options": "In Training"
+   "options": "In Catalog\nIn Training"
   },
   {
    "fieldname": "exercise_series",
@@ -107,10 +110,18 @@
    "in_standard_filter": 1,
    "label": "Exercise Series",
    "options": "Exercise Series"
+  },
+  {
+   "fieldname": "fold1",
+   "fieldtype": "Fold"
+  },
+  {
+   "fieldname": "section2",
+   "fieldtype": "Section Break"
   }
  ],
  "image_field": "attach_image",
- "modified": "2020-06-10 17:05:42.651799",
+ "modified": "2020-06-10 19:44:46.644721",
  "modified_by": "Administrator",
  "module": "Sports Management",
  "name": "Exercise",
