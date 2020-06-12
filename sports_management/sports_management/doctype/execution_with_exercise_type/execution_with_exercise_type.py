@@ -6,5 +6,5 @@ from __future__ import unicode_literals
 # import frappe
 from frappe.model.document import Document
 
-class Execution_with_exercise_type_with_exercise_type(Document):
+class Execution_with_exercise_type(Document):
 	pass
