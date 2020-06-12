@@ -1,5 +1,5 @@
 {
- "autoname": "format:{exercise} - {datetime}",
+ "autoname": "format:{exercise} - {date} - {time}",
  "creation": "2020-06-06 22:42:01.982841",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -8,7 +8,6 @@
   "exercise",
   "exercise_type",
   "exercise_series",
-  "datetime",
   "date",
   "time",
   "column_break1",
@@ -40,12 +39,6 @@
   {
    "fieldname": "column_break1",
    "fieldtype": "Column Break"
-  },
-  {
-   "default": "Now",
-   "fieldname": "datetime",
-   "fieldtype": "Datetime",
-   "label": "Datetime"
   },
   {
    "fieldname": "section_break1",
@@ -115,7 +108,7 @@
   }
  ],
  "image_field": "attach_image",
- "modified": "2020-06-11 16:43:33.474381",
+ "modified": "2020-06-12 19:02:29.015085",
  "modified_by": "email@robinrosenstock.com",
  "module": "Sports Management",
  "name": "Execution",
