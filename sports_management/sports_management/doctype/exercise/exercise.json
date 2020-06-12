@@ -15,15 +15,11 @@
   "muscles",
   "equipment",
   "difficulty_level",
+  "column1",
   "status",
   "description",
-  "column_break1",
-  "fold1",
-  "section2",
-  "image",
   "attach_image",
-  "attach_video",
-  "section_break1"
+  "attach_video"
  ],
  "fields": [
   {
@@ -41,13 +37,8 @@
   {
    "fieldname": "attach_image",
    "fieldtype": "Attach Image",
+   "hidden": 1,
    "label": "Attach Image"
-  },
-  {
-   "fieldname": "image",
-   "fieldtype": "Image",
-   "label": "Image",
-   "options": "attach_image"
   },
   {
    "fieldname": "attach_video",
@@ -73,14 +64,6 @@
    "fieldtype": "Table MultiSelect",
    "label": "Equipment",
    "options": "Equipment Table"
-  },
-  {
-   "fieldname": "column_break1",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "section_break1",
-   "fieldtype": "Section Break"
   },
   {
    "fieldname": "difficulty_level",
@@ -112,17 +95,13 @@
    "options": "Exercise Series"
   },
   {
-   "fieldname": "fold1",
-   "fieldtype": "Fold"
-  },
-  {
-   "fieldname": "section2",
-   "fieldtype": "Section Break"
+   "fieldname": "column1",
+   "fieldtype": "Column Break"
   }
  ],
  "image_field": "attach_image",
- "modified": "2020-06-10 19:44:46.644721",
- "modified_by": "Administrator",
+ "modified": "2020-06-11 16:21:01.668422",
+ "modified_by": "email@robinrosenstock.com",
  "module": "Sports Management",
  "name": "Exercise",
  "owner": "Administrator",

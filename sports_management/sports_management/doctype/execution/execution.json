@@ -9,8 +9,9 @@
   "exercise_type",
   "exercise_series",
   "datetime",
+  "date",
+  "time",
   "column_break1",
-  "image",
   "section_break1",
   "reps",
   "weight",
@@ -25,6 +26,7 @@
   {
    "fieldname": "exercise",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Exercise",
    "options": "Exercise"
   },
@@ -52,6 +54,7 @@
   {
    "fieldname": "reps",
    "fieldtype": "Int",
+   "in_list_view": 1,
    "label": "Reps"
   },
   {
@@ -62,6 +65,7 @@
   {
    "fieldname": "weight",
    "fieldtype": "Float",
+   "in_list_view": 1,
    "label": "Weight"
   },
   {
@@ -76,6 +80,7 @@
   {
    "fieldname": "short_duration_seconds",
    "fieldtype": "Float",
+   "in_list_view": 1,
    "label": "Short Duration (Seconds)"
   },
   {
@@ -89,23 +94,29 @@
    "hidden": 1
   },
   {
-   "fetch_from": "exercise.attach_image",
-   "fieldname": "image",
-   "fieldtype": "Image",
-   "label": "Exercise Image",
-   "options": "attach_image"
-  },
-  {
    "fetch_from": "exercise.exercise_series",
    "fieldname": "exercise_series",
    "fieldtype": "Link",
    "label": "Exercise Series",
    "options": "Exercise Series"
+  },
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date"
+  },
+  {
+   "fieldname": "time",
+   "fieldtype": "Time",
+   "in_list_view": 1,
+   "label": "Time"
   }
  ],
  "image_field": "attach_image",
- "modified": "2020-06-10 19:41:36.560547",
- "modified_by": "Administrator",
+ "modified": "2020-06-11 16:43:33.474381",
+ "modified_by": "email@robinrosenstock.com",
  "module": "Sports Management",
  "name": "Execution",
  "owner": "Administrator",
@@ -138,5 +149,6 @@
  ],
  "sort_field": "modified",
  "sort_order": "DESC",
+ "title_field": "exercise",
  "track_changes": 1
 }
