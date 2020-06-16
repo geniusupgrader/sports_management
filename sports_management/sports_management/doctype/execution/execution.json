@@ -8,10 +8,10 @@
   "exercise",
   "exercise_type",
   "exercise_series",
+  "column_break1",
   "date",
   "time",
   "stop_time",
-  "column_break1",
   "section_break1",
   "reps",
   "weight",
@@ -28,7 +28,8 @@
    "fieldtype": "Link",
    "in_list_view": 1,
    "label": "Exercise",
-   "options": "Exercise"
+   "options": "Exercise",
+   "reqd": 1
   },
   {
    "fetch_from": "exercise.exercise_type",
@@ -114,7 +115,7 @@
   }
  ],
  "image_field": "attach_image",
- "modified": "2020-06-16 20:49:53.377240",
+ "modified": "2020-06-16 21:31:41.206425",
  "modified_by": "email@robinrosenstock.com",
  "module": "Sports Management",
  "name": "Execution",
