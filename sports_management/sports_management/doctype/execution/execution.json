@@ -10,6 +10,7 @@
   "exercise_series",
   "date",
   "time",
+  "stop_time",
   "column_break1",
   "section_break1",
   "reps",
@@ -104,11 +105,16 @@
    "fieldname": "time",
    "fieldtype": "Time",
    "in_list_view": 1,
-   "label": "Time"
+   "label": "Start Time"
+  },
+  {
+   "fieldname": "stop_time",
+   "fieldtype": "Time",
+   "label": "Stop Time"
   }
  ],
  "image_field": "attach_image",
- "modified": "2020-06-12 19:02:29.015085",
+ "modified": "2020-06-16 20:49:53.377240",
  "modified_by": "email@robinrosenstock.com",
  "module": "Sports Management",
  "name": "Execution",
