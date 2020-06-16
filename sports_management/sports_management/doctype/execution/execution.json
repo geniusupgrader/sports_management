@@ -84,6 +84,7 @@
    "label": "Long Duration (Minutes)"
   },
   {
+   "fetch_from": "exercise.attach_image",
    "fieldname": "attach_image",
    "fieldtype": "Attach Image",
    "hidden": 1
@@ -115,7 +116,7 @@
   }
  ],
  "image_field": "attach_image",
- "modified": "2020-06-16 21:31:41.206425",
+ "modified": "2020-06-16 21:39:04.955948",
  "modified_by": "email@robinrosenstock.com",
  "module": "Sports Management",
  "name": "Execution",
