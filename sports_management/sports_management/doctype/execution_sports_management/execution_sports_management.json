@@ -1,0 +1,155 @@
+{
+ "autoname": "format:{exercise} - {date} - {time}",
+ "creation": "2020-06-06 22:42:01.982841",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "exercise",
+  "exercise_type",
+  "exercise_series",
+  "column_break1",
+  "date",
+  "time",
+  "stop_time",
+  "section_break1",
+  "reps",
+  "weight",
+  "tempo",
+  "column_break2",
+  "short_duration_seconds",
+  "long_duration_minutes",
+  "distance",
+  "attach_image"
+ ],
+ "fields": [
+  {
+   "fieldname": "exercise",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Exercise",
+   "options": "Exercise_sports_management",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "exercise.exercise_type",
+   "fieldname": "exercise_type",
+   "fieldtype": "Link",
+   "label": "Exercise Type",
+   "options": "Exercise_Type_sports_management"
+  },
+  {
+   "fieldname": "column_break1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break1",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "reps",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Reps"
+  },
+  {
+   "fieldname": "tempo",
+   "fieldtype": "Int",
+   "label": "Tempo"
+  },
+  {
+   "fieldname": "weight",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Weight"
+  },
+  {
+   "fieldname": "distance",
+   "fieldtype": "Float",
+   "label": "Distance (Meter)"
+  },
+  {
+   "fieldname": "column_break2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "short_duration_seconds",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Short Duration (Seconds)"
+  },
+  {
+   "fieldname": "long_duration_minutes",
+   "fieldtype": "Float",
+   "label": "Long Duration (Minutes)"
+  },
+  {
+   "fetch_from": "exercise.attach_image",
+   "fieldname": "attach_image",
+   "fieldtype": "Attach Image",
+   "hidden": 1
+  },
+  {
+   "fetch_from": "exercise.exercise_series",
+   "fieldname": "exercise_series",
+   "fieldtype": "Link",
+   "label": "Exercise Series",
+   "options": "Exercise_Series_sports_management"
+  },
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date"
+  },
+  {
+   "fieldname": "time",
+   "fieldtype": "Time",
+   "in_list_view": 1,
+   "label": "Start Time"
+  },
+  {
+   "fieldname": "stop_time",
+   "fieldtype": "Time",
+   "label": "Stop Time"
+  }
+ ],
+ "image_field": "attach_image",
+ "modified": "2020-12-06 11:20:55.068384",
+ "modified_by": "Administrator",
+ "module": "Sports Management",
+ "name": "Execution_sports_management",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "if_owner": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Athlete",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "exercise",
+ "track_changes": 1
+}

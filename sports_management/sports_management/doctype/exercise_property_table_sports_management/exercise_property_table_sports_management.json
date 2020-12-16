@@ -1,0 +1,28 @@
+{
+ "creation": "2020-06-02 18:46:39.222870",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "property"
+ ],
+ "fields": [
+  {
+   "fieldname": "property",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Property",
+   "options": "Exercise_Property_sports_managementu"
+  }
+ ],
+ "istable": 1,
+ "modified": "2020-12-06 11:21:24.607098",
+ "modified_by": "Administrator",
+ "module": "Sports Management",
+ "name": "Exercise_Property_Table_sports_management",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

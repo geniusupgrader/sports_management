@@ -1,0 +1,106 @@
+{
+ "autoname": "field:name1",
+ "creation": "2020-11-20 21:06:49.773725",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "alternative_naming",
+  "exercise_type",
+  "exercise_series",
+  "muscles",
+  "equipment",
+  "difficulty_level",
+  "status",
+  "description",
+  "attach_the_image",
+  "attach_video"
+ ],
+ "fields": [
+  {
+   "fieldname": "attach_the_image",
+   "fieldtype": "Attach Image",
+   "label": "Attach Image"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "alternative_naming",
+   "fieldtype": "Data",
+   "label": "Alternative Naming"
+  },
+  {
+   "fieldname": "exercise_type",
+   "fieldtype": "Link",
+   "label": "Exercise Type",
+   "options": "Exercise_Type_sports_management"
+  },
+  {
+   "fieldname": "exercise_series",
+   "fieldtype": "Link",
+   "label": "Exercise Series",
+   "options": "Exercise_Series_sports_management"
+  },
+  {
+   "fieldname": "muscles",
+   "fieldtype": "Table MultiSelect",
+   "label": "Muscles",
+   "options": "Muscle_Table_sports_management"
+  },
+  {
+   "fieldname": "equipment",
+   "fieldtype": "Table MultiSelect",
+   "label": "Equipment",
+   "options": "Equipment_table_sports_management"
+  },
+  {
+   "fieldname": "difficulty_level",
+   "fieldtype": "Int",
+   "label": "Difficulty Level"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "In Catalog\nIn Training"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text Editor",
+   "label": "Description"
+  },
+  {
+   "fieldname": "attach_video",
+   "fieldtype": "Attach",
+   "label": "Attach Video"
+  }
+ ],
+ "image_field": "attach_the_image",
+ "modified": "2020-12-06 11:20:54.746541",
+ "modified_by": "Administrator",
+ "module": "Sports Management",
+ "name": "Exercise_sports_management",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
