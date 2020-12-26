@@ -84,12 +84,6 @@
    "label": "Long Duration (Minutes)"
   },
   {
-   "fetch_from": "exercise.attach_image",
-   "fieldname": "attach_image",
-   "fieldtype": "Attach Image",
-   "hidden": 1
-  },
-  {
    "fetch_from": "exercise.exercise_series",
    "fieldname": "exercise_series",
    "fieldtype": "Link",
@@ -113,11 +107,15 @@
    "fieldname": "stop_time",
    "fieldtype": "Time",
    "label": "Stop Time"
+  },
+  {
+   "fieldname": "attach_image",
+   "fieldtype": "Attach Image"
   }
  ],
  "image_field": "attach_image",
- "modified": "2020-12-06 11:20:55.068384",
- "modified_by": "Administrator",
+ "modified": "2020-12-26 11:43:07.953180",
+ "modified_by": "email@robinrosenstock.com",
  "module": "Sports Management",
  "name": "Execution_sports_management",
  "owner": "Administrator",
