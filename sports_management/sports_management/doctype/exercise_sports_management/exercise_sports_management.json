@@ -37,12 +37,16 @@
   {
    "fieldname": "exercise_type",
    "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Exercise Type",
    "options": "Exercise_Type_sports_management"
   },
   {
    "fieldname": "exercise_series",
    "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Exercise Series",
    "options": "Exercise_Series_sports_management"
   },
@@ -61,11 +65,15 @@
   {
    "fieldname": "difficulty_level",
    "fieldtype": "Int",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Difficulty Level"
   },
   {
    "fieldname": "status",
    "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Status",
    "options": "In Catalog\nIn Training"
   },
@@ -81,8 +89,8 @@
   }
  ],
  "image_field": "attach_the_image",
- "modified": "2020-12-06 11:20:54.746541",
- "modified_by": "Administrator",
+ "modified": "2020-12-27 16:11:21.164775",
+ "modified_by": "email@robinrosenstock.com",
  "module": "Sports Management",
  "name": "Exercise_sports_management",
  "owner": "Administrator",
