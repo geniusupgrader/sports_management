@@ -7,7 +7,7 @@ def get_data():
 		{
 			"module_name": "Sports Management",
 			"color": "grey",
-			"icon": "octicon octicon-file-directory",
+			"icon": "octicon octicon-flame",
 			"type": "module",
 			"label": _("Sports Management")
 		}
