@@ -1,12 +1,6 @@
 // Copyright (c) 2020, Robin Rosenstock and contributors
 // For license information, please see license.txt
 
-frappe.ui.form.on('Exercise_sports_management', {
-	refresh(frm) {
-		// your code here
-	}
-});
-
 frappe.ui.form.on("Exercise_sports_management", {
 refresh: function(frm) {
     frm.add_custom_button(__("Create"), function() {
