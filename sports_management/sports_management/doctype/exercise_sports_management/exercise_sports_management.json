@@ -1,4 +1,6 @@
 {
+ "allow_import": 1,
+ "allow_rename": 1,
  "autoname": "field:name1",
  "creation": "2020-11-20 21:06:49.773725",
  "doctype": "DocType",
@@ -26,12 +28,14 @@
   {
    "fieldname": "name1",
    "fieldtype": "Data",
+   "in_global_search": 1,
    "label": "Name",
    "unique": 1
   },
   {
    "fieldname": "alternative_naming",
    "fieldtype": "Data",
+   "in_global_search": 1,
    "label": "Alternative Naming"
   },
   {
@@ -89,7 +93,7 @@
   }
  ],
  "image_field": "attach_the_image",
- "modified": "2020-12-27 16:11:21.164775",
+ "modified": "2021-01-05 22:47:44.748800",
  "modified_by": "email@robinrosenstock.com",
  "module": "Sports Management",
  "name": "Exercise_sports_management",

@@ -108,12 +108,13 @@
    "label": "Stop Time"
   },
   {
+   "fetch_from": "exercise.attach_the_image",
    "fieldname": "attach_image",
    "fieldtype": "Attach Image"
   }
  ],
  "image_field": "attach_image",
- "modified": "2021-01-05 19:02:05.541199",
+ "modified": "2021-01-05 21:21:33.992988",
  "modified_by": "email@robinrosenstock.com",
  "module": "Sports Management",
  "name": "Execution_sports_management",
